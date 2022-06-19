@@ -2,7 +2,7 @@
 
 ---
 
-##Pre-requisites
+## Pre-requisites
 
 - `pytesseract` opensource library installation following the steps mentioned in this page [pytesseract-opensource](https://github.com/UB-Mannheim/tesseract/wiki)
 - Python 
@@ -18,12 +18,12 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 While importing pytesseract, mentioning the path is must, for the code to execute properly
 
 
-###Input file:
+### Input file:
 
 ![Inuput image](https://github.com/Naveen-S6/Python_Apps/blob/main/OCR/resources/Text.png)
 
 
-###Output:
+### Output:
 
 In string format,
 ```commandline
@@ -56,7 +56,7 @@ thy verses in my commendation.” “May God show small mercy to my
 father,” exclaimed |, “for knowing the like of thee.”/°]
 ```
 
-###Conclusion:
+### Conclusion:
 
 As you can see, the output string needs to processed to get more accurate results. But, most of the texts from the image has been extracted
 
